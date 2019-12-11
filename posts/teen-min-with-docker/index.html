@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Teen minutes with Docker :: Bio — Some random posts</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="TL;DR Docker is a software platform that allows you to build, test, and deploy applications quickly.
+Docker packages software into standardized units called containers that have everything the software needs to run including libraries, system tools, code, and runtime.
+Using Docker, you can quickly deploy and scale applications into any environment and know your code will run.
+How does it works? We can start from a base image and create a new instance from them."/>
+<meta name="keywords" content="docker"/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="hatzelencio.github.io/posts/teen-min-with-docker/" />
+
+
+<link rel="stylesheet" href="hatzelencio.github.io/assets/style.css">
+
+  <link rel="stylesheet" href="hatzelencio.github.io/assets/blue.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="hatzelencio.github.io/img/apple-touch-icon-144-precomposed.png">
+
+<link rel="shortcut icon" href="hatzelencio.github.io/img/favicon/blue.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Teen minutes with Docker :: Bio — Some random posts" />
+<meta name="twitter:description" content="TL;DR Docker is a software platform that allows you to build, test, and deploy applications quickly.
+Docker packages software into standardized units called containers that have everything the software needs to run including libraries, system tools, code, and runtime.
+Using Docker, you can quickly deploy and scale applications into any environment and know your code will run.
+How does it works? We can start from a base image and create a new instance from them." />
+<meta name="twitter:site" content="hatzelencio.github.io" />
+<meta name="twitter:creator" content="Hatzel Renteria" />
+<meta name="twitter:image" content="">
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Teen minutes with Docker :: Bio — Some random posts">
+<meta property="og:description" content="TL;DR Docker is a software platform that allows you to build, test, and deploy applications quickly.
+Docker packages software into standardized units called containers that have everything the software needs to run including libraries, system tools, code, and runtime.
+Using Docker, you can quickly deploy and scale applications into any environment and know your code will run.
+How does it works? We can start from a base image and create a new instance from them." />
+<meta property="og:url" content="hatzelencio.github.io/posts/teen-min-with-docker/" />
+<meta property="og:site_name" content="Teen minutes with Docker" />
+<meta property="og:image" content="">
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+<meta property="article:published_time" content="2019-12-10 23:57:13 -0600 CST" />
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="">
+
+
+<div class="container center">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Hatzel Renteria
+  </div>
+</a>
+
+    </div>
+    <div class="menu-trigger">menu</div>
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="hatzelencio.github.io/about">About</a></li>
+        
+      
+      
+    
+
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="hatzelencio.github.io/about">About</a></li>
+      
+    
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="hatzelencio.github.io/posts/teen-min-with-docker/">Teen minutes with Docker</a></h1>
+  <div class="post-meta">
+      
+    <span class="post-date">
+      2019-12-10
+    </span>
+    
+    
+    <span class="post-author">::
+      Hatzel Renteria
+    </span>
+    
+  </div>
+
+  
+  <span class="post-tags">
+    
+    #<a href="hatzelencio.github.io/tags/docker/">docker</a>&nbsp;
+    
+  </span>
+  
+
+  
+
+  <div class="post-content">
+    <hr>
+<h2 id="tldr">TL;DR</h2>
+<p>Docker is a software platform that allows you to <strong>build</strong>, <strong>test</strong>, and <strong>deploy</strong> applications <em>quickly</em>.</p>
+<p>Docker packages software into standardized units called containers that have everything the software needs to run including libraries, system tools, code, and runtime.</p>
+<p>Using Docker, you can quickly deploy and scale applications into any environment and know your code will run.</p>
+<h2 id="how-does-it-works">How does it works?</h2>
+<p>We can start from a base image and create a new instance from them.</p>
+<p>This instance we can say it container</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ docker run -it ubuntu:18.04 /bin/bash
+</code></pre></div><hr>
+<h2 id="getting-an-image-from">Getting an image from</h2>
+<ul>
+<li>Container Registry (docker hub)</li>
+<li>Build from your Dockerfile</li>
+<li>Import an image</li>
+<li>An existing Container</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ docker pull image:version
+$ docker build --tag<span style="color:#f92672">=</span>image:version .
+$ docker import &lt;file&gt; image:version
+$ docker commit &lt;container&gt; image:version
+</code></pre></div><h2 id="dockerfile">Dockerfile</h2>
+<p>A Dockerfile is a text document that <em>contains all the commands</em> a user could call on the command line to <strong>assemble</strong> an <strong>image</strong>.</p>
+<p>In other words, we can create our own configuration.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-docker" data-lang="docker"><span style="color:#66d9ef">FROM</span><span style="color:#e6db74"> ubuntu:18.04</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">LABEL</span> maintainer<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;John Doe &lt;docker@domain.com&gt;&#34;</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">RUN</span> apt-get update<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">RUN</span> apt-get install -y openjdk-11-jdk<span style="color:#960050;background-color:#1e0010">
+</span></code></pre></div><p>After that, you can save it in a <code>Dockerfile</code>, you can build a new image with the next command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ docker build --tag<span style="color:#f92672">=</span>java:11 .
+</code></pre></div><h2 id="how-can-i-see-my-docker-images">How can i see my docker images?</h2>
+<p>Just need type the next command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ docker images
+
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+java                <span style="color:#ae81ff">11</span>                  a60dd0cbf526        <span style="color:#ae81ff">11</span> minutes ago      687MB
+openjdk             <span style="color:#ae81ff">11</span>                  eadb81868925        <span style="color:#ae81ff">9</span> days ago          605MB
+ubuntu              18.04               3556258649b2        <span style="color:#ae81ff">3</span> days ago          64.2MB
+</code></pre></div>
+  </div>
+  
+
+  
+
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2019 Powered by <a href="http://gohugo.io">Hugo</a></span>
+    
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+<script src="hatzelencio.github.io/assets/main.js"></script>
+<script src="hatzelencio.github.io/assets/prism.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
