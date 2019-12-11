@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bio</title>
-    <link>hatzelencio.github.io/</link>
+    <link>/</link>
     <description>Recent content on Bio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 10 Dec 2019 23:57:13 -0600</lastBuildDate>
     
-	<atom:link href="hatzelencio.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Teen minutes with Docker</title>
-      <link>hatzelencio.github.io/posts/teen-min-with-docker/</link>
+      <link>/posts/teen-min-with-docker/</link>
       <pubDate>Tue, 10 Dec 2019 23:57:13 -0600</pubDate>
       
-      <guid>hatzelencio.github.io/posts/teen-min-with-docker/</guid>
+      <guid>/posts/teen-min-with-docker/</guid>
       <description>TL;DR Docker is a software platform that allows you to build, test, and deploy applications quickly.
 Docker packages software into standardized units called containers that have everything the software needs to run including libraries, system tools, code, and runtime.
 Using Docker, you can quickly deploy and scale applications into any environment and know your code will run.
@@ -25,10 +25,10 @@ How does it works? We can start from a base image and create a new instance from
     
     <item>
       <title>About</title>
-      <link>hatzelencio.github.io/about/</link>
+      <link>/about/</link>
       <pubDate>Tue, 10 Dec 2019 23:55:25 -0600</pubDate>
       
-      <guid>hatzelencio.github.io/about/</guid>
+      <guid>/about/</guid>
       <description>Bio Hi, my name is Hatzel. I am a software engineer.</description>
     </item>
     
