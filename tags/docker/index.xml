@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>Teen minutes with Docker</title>
-      <link>/posts/teen-min-with-docker/</link>
+      <title>Ten minutes with Docker</title>
+      <link>/posts/ten-min-with-docker/</link>
       <pubDate>Tue, 10 Dec 2019 23:57:13 -0600</pubDate>
       
-      <guid>/posts/teen-min-with-docker/</guid>
+      <guid>/posts/ten-min-with-docker/</guid>
       <description>TL;DR Docker is a software platform that allows you to build, test, and deploy applications quickly.
 Docker packages software into standardized units called containers that have everything the software needs to run including libraries, system tools, code, and runtime.
 Using Docker, you can quickly deploy and scale applications into any environment and know your code will run.
