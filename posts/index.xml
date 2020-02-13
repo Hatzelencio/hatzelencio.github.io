@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Bio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Dec 2019 23:57:13 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 12 Feb 2020 23:12:10 -0600</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Cattle vs Pets</title>
+      <link>/posts/cattle-vs-pets/</link>
+      <pubDate>Wed, 12 Feb 2020 23:12:10 -0600</pubDate>
+      
+      <guid>/posts/cattle-vs-pets/</guid>
+      <description> A Devops concept Like a description tell us:
+[&amp;hellip;]We love pets because they are cute. We can&#39;t hurt them.
+Manita por metiche :P *&amp;amp;@@@@@@* .&amp;amp;@@@@@@@@@@@@@@@@, .&amp;amp;@@@@@@@@@@@@@@@@@@@@&amp;amp; ,(&amp;amp;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@. &amp;amp;&amp;amp;#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@. @@@(@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@% .@@%&amp;amp;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#. %@@@/@@@@@@&amp;amp;%( ./&amp;amp;@@@@@@@@@@@@@@@@@@@, *%&amp;amp;%,#@@% *@&amp;amp;(@@@@@@@@@@@@@@&amp;amp; &amp;amp;@@@@ #@@(@@@@@@@@@@@&amp;amp; #@@@@@ @@*&amp;amp;@@@@@@@@@@@@ @@@@(@# ,@&amp;amp;*@#&amp;amp;@@@@@@@@@ (@@@@@@@,,&amp;amp;@@%*#@@@@@@@@@@@@@. @@@@@@@@@@@@@@@@@@@@@@@@@@, /@@@@@@@@@@@@@@@@@@@@@@@/ .@@@@@@@@@@@@@@@@@@@@&amp;amp;. ,//,**(%&amp;amp;@@@@@@( .@@@@@@@@@@% &amp;amp;@@@@@@@@@# @@@@@@@@@%/. %@@@@@@@@&amp;amp;.@* *@@@@@@@@@(/@@, .@@@@@@@@&amp;amp;*@@@* ,@@@@@@@@@*%@@@@, ,@@@@@@@@#,@@@@@@ @@@@@@# @@@@@@* &amp;amp;@&amp;amp;#, .@@@@@&amp;amp; %@@@( &amp;amp;@#  </description>
+    </item>
     
     <item>
       <title>Ten minutes with Docker</title>

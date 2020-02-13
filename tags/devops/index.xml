@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bio</title>
-    <link>/</link>
-    <description>Recent content on Bio</description>
+    <title>devops on Bio</title>
+    <link>/tags/devops/</link>
+    <description>Recent content in devops on Bio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 12 Feb 2020 23:12:10 -0600</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/devops/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,27 +20,6 @@
       <description> A Devops concept Like a description tell us:
 [&amp;hellip;]We love pets because they are cute. We can&#39;t hurt them.
 Manita por metiche :P *&amp;amp;@@@@@@* .&amp;amp;@@@@@@@@@@@@@@@@, .&amp;amp;@@@@@@@@@@@@@@@@@@@@&amp;amp; ,(&amp;amp;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@. &amp;amp;&amp;amp;#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@. @@@(@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@% .@@%&amp;amp;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#. %@@@/@@@@@@&amp;amp;%( ./&amp;amp;@@@@@@@@@@@@@@@@@@@, *%&amp;amp;%,#@@% *@&amp;amp;(@@@@@@@@@@@@@@&amp;amp; &amp;amp;@@@@ #@@(@@@@@@@@@@@&amp;amp; #@@@@@ @@*&amp;amp;@@@@@@@@@@@@ @@@@(@# ,@&amp;amp;*@#&amp;amp;@@@@@@@@@ (@@@@@@@,,&amp;amp;@@%*#@@@@@@@@@@@@@. @@@@@@@@@@@@@@@@@@@@@@@@@@, /@@@@@@@@@@@@@@@@@@@@@@@/ .@@@@@@@@@@@@@@@@@@@@&amp;amp;. ,//,**(%&amp;amp;@@@@@@( .@@@@@@@@@@% &amp;amp;@@@@@@@@@# @@@@@@@@@%/. %@@@@@@@@&amp;amp;.@* *@@@@@@@@@(/@@, .@@@@@@@@&amp;amp;*@@@* ,@@@@@@@@@*%@@@@, ,@@@@@@@@#,@@@@@@ @@@@@@# @@@@@@* &amp;amp;@&amp;amp;#, .@@@@@&amp;amp; %@@@( &amp;amp;@#  </description>
-    </item>
-    
-    <item>
-      <title>Ten minutes with Docker</title>
-      <link>/posts/ten-min-with-docker/</link>
-      <pubDate>Tue, 10 Dec 2019 23:57:13 -0600</pubDate>
-      
-      <guid>/posts/ten-min-with-docker/</guid>
-      <description>TL;DR Docker is a software platform that allows you to build, test, and deploy applications quickly.
-Docker packages software into standardized units called containers that have everything the software needs to run including libraries, system tools, code, and runtime.
-Using Docker, you can quickly deploy and scale applications into any environment and know your code will run.
-How does it works? We can start from a base image and create a new instance from them.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Tue, 10 Dec 2019 23:55:25 -0600</pubDate>
-      
-      <guid>/about/</guid>
-      <description>Bio Hi, my name is Hatzel. I am a software engineer.</description>
     </item>
     
   </channel>
